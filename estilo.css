@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.home .contenido-inicio{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.home .contenido-inicio header{
+    padding: 30px;
+}
+.home .contenido-inicio header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #940253;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.home .contenido-inicio header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.home .contenido-inicio header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Dancing Script";
+    text-shadow: 0 0 25px #fff;
+}
+.home .contenido-inicio header .nav-bar{
+    position: fixed;
+    background-color: #940253;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.home .contenido-inicio header .nav-bar:hover{
+    box-shadow: 0 0 25px #fff;
+}
+.home .contenido-inicio .info{
+    padding-bottom: 130px;
+}
+.home .contenido-inicio .info h1{
+    font-size: 3rem;
+}
+.home .contenido-inicio .info h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+.home .contenido-inicio .info .redes{
+    margin: 20px 0;
+}
+.home .contenido-inicio .info .redes a{
+    margin: 0 5px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    color: #940253;
+    border: 1px solid #940253;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    transition: .3s;
+}
+.home .contenido-inicio .info .redes a:hover{
+    color: #fff;
+    background-color: #940253;
+    box-shadow: 0 0 20px #fff;
+}
+.home .contenido-inicio .foto{
+    position: relative;
+}
+.home .contenido-inicio .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid #940253;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+.estudios{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.estudios .contenido-inicio{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.titulo-seccion{
+    font-family: "Dancing Script";
+    font-size: 1.5rem;
+}
+.estudios .contenido-inicio .especial{
+    color: #940253;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.estudios .contenido-inicio ul{
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+    text-align: left;
+}
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-inicio{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-inicio h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.contacto .contenido-inicio .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-inicio .columna{
+    margin-top: 50px;
+}
